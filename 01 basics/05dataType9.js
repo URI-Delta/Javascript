@@ -1,3 +1,6 @@
+// Queue First in first out 
+// Stack First in last out 
+
 // ========================   primitive data type  =======================================7
 
 // 7 Types :

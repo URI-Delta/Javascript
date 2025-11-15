@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id="stop" >Stop</button>
+</body>
+<script>
+    
+    let SayURI = function(){
+        console.log("URI Delta");
+        
+    }
+    
+    // setTimeout(function (){
+    //     console.log("URI Delta");
+        
+    // },2000)
+
+    const change_text = function (){
+
+    document.querySelector('h1').innerHTML="Best javaScript Course"}
+        
+    let changeMe = setTimeout(change_text,2000)
+
+    document.querySelector('#stop').addEventListener('click',()=>{
+        clearTimeout(changeMe)
+        console.log("Stoped");
+        
+    })
+
+</script>
+</html>
